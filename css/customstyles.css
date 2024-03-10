@@ -1,0 +1,16 @@
+#acc .accordion-button:focus {
+    background-color: white!important;
+    box-shadow: none !important;
+    border-color: rgba(0, 0, 0, 0)!important;
+    color: black!important;
+}
+
+#acc .accordion-button:not(.collapsed) {
+    box-shadow: none!important;
+    background-color: white!important;
+    color: black!important;
+}
+
+#acc .accordion-item {
+    border: none!important;
+}
